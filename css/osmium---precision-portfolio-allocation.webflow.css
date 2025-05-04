@@ -65,7 +65,11 @@
 
 .image-2 {
   position: relative;
-  inset: auto -20% 0% auto;
+  inset: auto -5% 0% auto;
+}
+
+.italic-text, .text-block-3 {
+  text-align: left;
 }
 
 #w-node-_6fcc2f04-b68e-71c3-ff5e-b0818e37e22f-c3ec96d4 {
