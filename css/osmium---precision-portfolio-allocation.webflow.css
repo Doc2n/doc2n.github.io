@@ -36,11 +36,20 @@
 
 .cell-2 {
   text-align: center;
+  display: block;
 }
 
-.text-block, .text-block-2 {
+.text-block {
+  text-align: left;
   width: 448.438px;
-  height: 80px;
+  height: auto;
+  position: static;
+}
+
+.text-block-2 {
+  text-align: left;
+  width: 448.438px;
+  height: auto;
 }
 
 .cell-3 {
@@ -52,6 +61,11 @@
   max-width: 1405.33px;
   margin-left: 0;
   margin-right: 0;
+}
+
+.image-2 {
+  position: relative;
+  inset: auto -20% 0% auto;
 }
 
 #w-node-_6fcc2f04-b68e-71c3-ff5e-b0818e37e22f-c3ec96d4 {
